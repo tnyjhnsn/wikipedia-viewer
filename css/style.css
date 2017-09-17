@@ -1,0 +1,74 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+#container {
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif; }
+
+#search-group {
+  background-color: #4E89A4; }
+
+#search-txt,
+#search-btn,
+#random-btn {
+  display: inline-block;
+  border: 3px solid lightgray;
+  font-family: "Open Sans", sans-serif;
+  background-color: gray;
+  font-size: 14px; }
+
+#search-txt {
+  width: 250px;
+  padding-left: 10px;
+  height: 32px;
+  background-color: #d4e3ea;
+  color: #2d4f5f; }
+
+#search-btn {
+  width: 75px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-left: -7px;
+  height: 40px;
+  color: white; }
+
+#random-btn {
+  width: 150px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-right: -7px;
+  height: 40px;
+  color: white; }
+
+.wiki-box {
+  border-bottom: 1px solid #a0c2d2;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 14px; }
+
+h3 {
+  margin: 0; }
+
+#wikis {
+  margin-top: 20px; }
+
+.searchmatch {
+  color: #4E89A4;
+  font-weight: 900; }
+
+:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent; }
+
+a,
+a:hover,
+a:visited,
+a:active,
+button {
+  color: #2d4f5f;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
